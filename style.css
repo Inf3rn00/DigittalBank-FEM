@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  margin: 0;
+
+  font-family: "Public Sans", sans-serif;
+}
+
+.main-container {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.navbar {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  background: hsl(220, 16%, 96%);
+  z-index: 1;
+}
+
+.nav-links {
+  position: absolute;
+  background-color: hsl(220, 16%, 96%);
+  padding: 5px 20px;
+  top: 80px;
+  width: 93%;
+  list-style: none;
+  display: none;
+  border-radius: 5px;
+}
+
+.navItem {
+  padding: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 15px;
+  font-size: 20px;
+}
+
+.nav-btn {
+  display: none;
+}
+
+.menu-open {
+  height: 15px;
+}
+.menu-close {
+  height: 20px;
+  width: 27px;
+}
+
+.ham-close {
+  display: none;
+}
+
+.hero-section {
+  text-align: center;
+  position: relative;
+}
+
+.hero-img {
+  width: 100vw;
+}
+
+.background-overlay {
+  width: 100%;
+  position: absolute;
+  top: -195px;
+  left: 0;
+  z-index: 0;
+}
+
+.hero-header {
+  margin-top: -85px;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-weight: 400;
+  color: hsl(233, 26%, 24%);
+  font-size: 45px;
+}
+
+.hero-para {
+  padding: 10px 70px;
+  color: hsl(233, 8%, 62%);
+}
+
+.hero-btn {
+  background: linear-gradient(
+    190deg,
+    hsl(136, 64%, 51%),
+    hsl(192, 69%, 51%) 90%
+  );
+  border: none;
+  color: white;
+  padding: 15px 40px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 700;
+  margin: 15px;
+}
