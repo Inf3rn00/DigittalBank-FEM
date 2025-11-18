@@ -107,7 +107,8 @@
   margin: 15px;
 }
 
-.why-choose, .latest-articles {
+.why-choose,
+.latest-articles {
   text-align: center;
   padding: 50px 20px;
   background-color: hsl(220, 16%, 96%);
@@ -119,14 +120,15 @@
   margin: 15px;
 }
 
-.why-choose h2, .latest-articles h2 {
+.why-choose h2,
+.latest-articles h2 {
   margin: 15px;
   font-weight: 400;
   color: hsl(233, 26%, 24%);
   font-size: 38px;
 }
 
-.why-choose h3{
+.why-choose h3 {
   margin: 15px 0;
   font-weight: 400;
   color: hsl(233, 26%, 24%);
@@ -138,12 +140,56 @@
   margin: 20px 10px;
 }
 
-.bottom-section{
+.bottom-section {
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
 
-.latest-articles{
+.latest-articles {
   background-color: hsl(0, 0%, 98%);
+  text-align: center;
+  padding: 50px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.latest-articles .cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.cards {
+  background: white;
+  margin: 20px;
+}
+
+.cards img {
+  overflow: hidden;
+  border-radius: 5px;
+}
+.cards span,
+.cards h4,
+.cards p {
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.cards p {
+  padding-bottom: 30px;
+  color: hsl(233, 8%, 62%);
+}
+
+.cards span{
+  color:hsl(233, 8%, 62%)
+}
+
+.cards h4 {
+  font-size: 25px;
+  color: hsl(233, 26%, 24%);
 }
